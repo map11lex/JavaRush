@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class Homework {
+    public static void main(String[] args) {
+/*
+     1)   int i = 1;
+        while(i>0 && i<=15){
+            System.out.println(i+" ");
+            i++;
+        }
+        for (int i = 1; i <= 15 && i > 0 ; i++) {
+            System.out.println(i+" ");
+        }
+
+        int i = 1;
+        do{
+            System.out.println(i+" ");
+            i++;
+      }while (i>0 && i<=15 );
+
+
+      2)  Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+
+            for (int i = 0;i < 1 && i <= a;i++) {
+                System.out.println(a*(a+1)/2);
+            }
+
+
+
+      3)  for (int i = 0; i < 100;i+=7 ) {
+            System.out.println(i);
+            }
+
+
+       4)    int a = 0;
+           while(a < 7){
+               int b = 0;
+               while (b < 9){
+                   System.out.print("* ");
+                   b++;
+               }
+               System.out.println("* ");
+               a++;
+           }
+
+
+
+     5)   Scanner scan = new Scanner(System.in);
+        System.out.println("Введите сумму вклада ");
+        int capital = scan.nextInt();
+
+        System.out.println("Введите количество месяцев ");
+        int month = scan.nextInt();
+
+        double x = capital * 0.012;
+        int total = (int) Math.floor(x);
+        int finalTotal = 0;
+
+        for (int i = 1; i <= month ; i++) {
+            finalTotal = i * total;
+            System.out.println(finalTotal);
+        }
+*/
+
+    }
+}
