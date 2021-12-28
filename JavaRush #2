@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Homework {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите сумму вклада ");
+        int capital = scan.nextInt();
+
+        System.out.println("Введите количество месяцев ");
+        int month = scan.nextInt();
+
+        double x = capital * 0.012;
+        double total = x;
+        double finalTotal = 0;
+
+
+        for (int i = 1; i <= month ; i++) {
+            finalTotal = capital + i * total;
+            System.out.println(finalTotal);
+        }
+    }
+}
+
